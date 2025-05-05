@@ -119,3 +119,14 @@ body {
   max-width: 500px;
 }
 /* End Stuff */
+/* Start Team */
+.team {
+  background-color: var(--section-color);
+}
+.team h2 {
+  color: var(--yallow-color);
+}
+.team .box h4 {
+  background-color: var(--green-color);
+}
+/* End Team */
