@@ -135,3 +135,27 @@ body {
   background-color: var(--dark-color);
 }
 /* End Project */
+/* Start Subscribe */
+.subscribe {
+  background-color: var(--yallow-color);
+}
+.subscribe input[type= "text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type= "text"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe input[type= "submit"] {
+  background-color: var(--dark-color);
+  color: var(--yallow-color);
+  transition: 0.3s;
+}
+.subscribe input[type= "submit"]:hover {
+  background-color: var(--red-color);
+  color: white;
+}
+/* End Subscribe */
